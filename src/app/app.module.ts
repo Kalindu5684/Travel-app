@@ -7,6 +7,9 @@ import { ApiServiceComponent } from './api-service/api-service.component';
 import { AppHeaderComponent } from './components/app-header';
 import { AppFooterComponent } from './components/app-footer';
 import { FullLayoutComponent } from './containers/full-layout';
+import {BsModalService} from 'ngx-bootstrap';
+import {ModalModule} from 'ngx-bootstrap';
+import {DetailsComponent} from './view-module/wild/details/details.component';
 
 
 @NgModule({
@@ -16,15 +19,18 @@ import { FullLayoutComponent } from './containers/full-layout';
     AppHeaderComponent,
     AppFooterComponent,
     FullLayoutComponent,
+    DetailsComponent
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ModalModule.forRoot()
 
   ],
-  providers: [],
+  providers: [BsModalService],
+  entryComponents: [DetailsComponent],
   exports: [
 
   ],
