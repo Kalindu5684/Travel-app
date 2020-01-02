@@ -3,3 +3,7 @@ margin-left: 200px;
   font-family: sans-serif;
 
 }
+#map {
+  height: 500px;
+  width: 100%;
+}

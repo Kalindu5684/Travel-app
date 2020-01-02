@@ -14,8 +14,7 @@ import { WildComponent } from './wild/wild.component';
     ViewModuleRoutingModule
   ],
   declarations: [HomeComponent, AboutComponent, ServicesComponent, WildComponent],
-  providers: [],
-  entryComponents: []
+
 
 })
 export class ViewModuleModule { }

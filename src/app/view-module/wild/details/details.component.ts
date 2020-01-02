@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {BsModalRef} from 'ngx-bootstrap';
 
 
@@ -7,20 +7,16 @@ import {BsModalRef} from 'ngx-bootstrap';
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css']
 })
-export class DetailsComponent implements OnInit {
+export class DetailsComponent implements  OnInit {
 
-  constructor(public bsModalRef: BsModalRef) {
-  }
+  constructor(public bsModalRef: BsModalRef) {}
 
-  ngOnInit() {
-  }
+
+  ngOnInit() {}
 
 
   onCloseModal(response: any) {
-    // if (response) {
-    //   this.onClose.next(response);
-    // }
     this.bsModalRef.hide();
-    // console.log('Hello World');
   }
+
 }

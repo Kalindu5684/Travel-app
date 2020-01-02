@@ -11,7 +11,6 @@ const routes: Routes = [
       title: 'wild'
     },
     children: [
-
     ]
   }
 ];
