@@ -25,41 +25,123 @@
   </a>
 </div>
 <hr>
-<h1 class="text-black lead " style="font-size: 100px; font-family: 'Britannic Bold'"><em>Select the place:</em></h1>
-<hr>
-<hr>
-<div class="img-detail">
-<div class="row">
+<!--<h1 class="text-black lead " style="font-size: 100px; font-family: 'Britannic Bold'"><em>Select the place:</em></h1>-->
+<!--<hr>-->
+<!--<hr>-->
+<!--<div class="img-detail">-->
+<!--<div class="row">-->
 
-<div class="col-lg-4 col-md-12 mb-4">
-  <a (click)="onDetail()">
-  <img src="./assets/Img-Wild/wild6.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-  <h3 class="text-black"><em>Yala National Park</em></h3>
-  </a>
-</div>
+<!--<div class="col-lg-4 col-md-12 mb-4">-->
+<!--  <a (click)="onDetail()">-->
+<!--  <img src="./assets/Img-Wild/wild6.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--  <h3 class="text-black"><em>Yala National Park</em></h3>-->
+<!--  </a>-->
+<!--</div>-->
 
-  <div class="col-lg-4 col-md-12 mb-4">
-    <img src="./assets/Img-Wild/wild8.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-    <h3 class="text-black"><em>Sinharaja Rain Forest</em></h3>
-  </div>
-  <div class="col-lg-4 col-md-12 mb-4">
-    <img src="./assets/Img-Wild/wild9.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-    <h3 class="text-black"><em>Udawalawa National Park</em></h3>
-  </div>
-</div>
-  <div class="row">
-    <div class="col-lg-4 col-md-12 mb-4">
-      <img src="./assets/Img-Wild/wild10.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-      <h3 class="text-black"><em>Wilpattuwa National Park</em></h3>
-    </div>
-    <div class="col-lg-4 col-md-12 mb-4">
-      <img src="./assets/Img-Wild/wild11.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-      <h3 class="text-black"><em>Horagolla National Park</em></h3>
-    </div>
-    <div class="col-lg-4 col-md-12 mb-4">
-      <img src="./assets/Img-Wild/wild12.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-      <h3 class="text-black"><em>Minneriya National Park</em></h3>
-    </div>
+<!--  <div class="col-lg-4 col-md-12 mb-4">-->
+<!--    <a (click)="onDetailSin()">-->
+<!--    <img src="./assets/Img-Wild/wild8.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--    <h3 class="text-black"><em>Sinharaja Rain Forest</em></h3>-->
+<!--    </a>-->
+<!--  </div>-->
+<!--  <div class="col-lg-4 col-md-12 mb-4">-->
+<!--    <a (click)="onDetailUda()">-->
+<!--    <img src="./assets/Img-Wild/wild9.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--    <h3 class="text-black"><em>Udawalawa National Park</em></h3>-->
+<!--    </a>-->
+<!--  </div>-->
+<!--</div>-->
+<!--  <div class="row">-->
+<!--    <div class="col-lg-4 col-md-12 mb-4">-->
+<!--      <img src="./assets/Img-Wild/wild10.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--      <h3 class="text-black"><em>Wilpattuwa National Park</em></h3>-->
+<!--    </div>-->
+<!--    <div class="col-lg-4 col-md-12 mb-4">-->
+<!--      <img src="./assets/Img-Wild/wild11.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--      <h3 class="text-black"><em>Horagolla National Park</em></h3>-->
+<!--    </div>-->
+<!--    <div class="col-lg-4 col-md-12 mb-4">-->
+<!--      <img src="./assets/Img-Wild/wild12.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">-->
+<!--      <h3 class="text-black"><em>Minneriya National Park</em></h3>-->
+<!--    </div>-->
 
+<!--  </div>-->
+<!--</div>-->
+
+
+
+
+
+
+
+<div class="section white-bg">
+  <div class="container">
+    <div class="text-center description block">
+      <h1>Most Popular Wild Places</h1>
+<!--      <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed pulvinar massa idend porta nequetiam</p>-->
+    </div>
+    <div class="tour-packages row add-clearfix image-box">
+      <div class="col-sm-6 col-md-4">
+        <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+          <figure>
+            <a (click)="onDetail()"><img src="./src/assets/Img-Wild/wild6.jpg" alt="wild6" style="height: 200px; width: 500px"></a>
+            <figcaption>
+
+              <h2 class="caption-title">Yala National Park</h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+        <div class="col-sm-6 col-md-4">
+          <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+            <figure>
+              <a (click)="onDetailSin()"><img src="./src/assets/Img-Wild/wild8.jpg" alt="wild8" style="height: 200px; width: 500px"></a>
+              <figcaption>
+                <h2 class="caption-title">Sinharaja Rain Forest</h2>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      <div class="col-sm-6 col-md-4">
+        <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+          <figure>
+            <a (click)="onDetailUda()"><img src="./src/assets/Img-Wild/wild9.jpg" alt="wild9" style="height: 200px; width: 500px"></a>
+            <figcaption>
+              <h2 class="caption-title">Udawalawa National Park</h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+          <figure>
+            <a (click)="onDetailWil()"><img src="./src/assets/Img-Wild/wild10.jpg" alt="wild10" style="height: 200px; width: 500px"></a>
+            <figcaption>
+              <h2 class="caption-title">Wilpattuwa National Park</h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+          <figure>
+            <a (click)="onDetailHora()"><img src="./src/assets/Img-Wild/wild11.jpg" alt="wild11" style="height: 200px; width: 500px"></a>
+            <figcaption>
+              <h2 class="caption-title">Horagolla National Park</h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <article class="box animated fadeInLeft" data-animation-type="fadeInLeft" style="animation-duration: 1s; visibility: visible;">
+          <figure>
+            <a (click)="onDetailMin()"><img src="./src/assets/Img-Wild/wild12.jpg" alt="wild12" style="height: 200px; width: 500px"></a>
+            <figcaption>
+              <h2 class="caption-title">Minneriya National Park</h2>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
   </div>
 </div>

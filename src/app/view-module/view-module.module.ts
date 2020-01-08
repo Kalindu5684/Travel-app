@@ -6,14 +6,18 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { WildComponent } from './wild/wild.component';
+import { StartPageComponent } from './start-page/start-page.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { ScenicComponent } from './scenic/scenic.component';
 
 
 @NgModule({
-  imports: [
-    CommonModule,
-    ViewModuleRoutingModule
-  ],
-  declarations: [HomeComponent, AboutComponent, ServicesComponent, WildComponent],
+    imports: [
+        CommonModule,
+        ViewModuleRoutingModule,
+        ReactiveFormsModule
+    ],
+  declarations: [HomeComponent, AboutComponent, ServicesComponent, WildComponent, StartPageComponent, ScenicComponent],
 
 
 })

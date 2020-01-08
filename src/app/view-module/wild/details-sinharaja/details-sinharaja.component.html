@@ -1,0 +1,181 @@
+<div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-lg-5">
+          <!--Carousel Wrapper-->
+          <div class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel"
+               id="carousel-thumb">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img alt="First slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_9.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_3.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_4.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_6.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_7.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_8.jpg" style="height: 400px ">
+              </div>
+              <div class="carousel-item">
+                <img alt="Second slide"
+                     class="d-block w-100"
+                     src="assets/Img-Wild/sinharaja_5.jpg" style="height: 400px ">
+              </div>
+
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" data-slide="prev" href="#carousel-thumb" role="button">
+              <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" data-slide="next" href="#carousel-thumb" role="button">
+              <span aria-hidden="true" class="carousel-control-next-icon"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+            <ol class="carousel-indicators">
+              <li class="active" data-slide-to="0" data-target="#carousel-thumb">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(23).jpg" width="60">
+              </li>
+              <li data-slide-to="1" data-target="#carousel-thumb">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(24).jpg" width="60">
+              </li>
+              <li data-slide-to="2" data-target="#carousel-thumb">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/img%20(25).jpg" width="60">
+              </li>
+            </ol>
+          </div>
+          <!--/.Carousel Wrapper-->
+        </div>
+        <div class="col-lg-7">
+          <h2 class="h2-responsive product-name">
+            <strong>Sinharaja Rain Forest</strong>
+          </h2>
+          <!--Accordion wrapper-->
+          <div aria-multiselectable="true" class="accordion md-accordion" id="accordionEx" role="tablist">
+
+            <!-- Accordion card -->
+            <div class="card">
+
+              <!-- Card header -->
+              <div class="card-header" id="headingOne1" role="tab">
+                <a aria-controls="collapseOne1" aria-expanded="true" data-parent="#accordionEx" data-toggle="collapse"
+                   href="#collapseOne1">
+                  <h5 class="mb-0">
+                    Description About Sinharaja<i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+
+              <!-- Card body -->
+              <div aria-labelledby="headingOne1" class="collapse" data-parent="#accordionEx" id="collapseOne1"
+                   role="tabpanel">
+                <div class="card-body">
+
+                  Located in south-west Sri Lanka, Sinharaja Rain Forest is the country's last viable area of primary tropical rainforest.
+                  More than 60% of the trees are endemic and many of them are considered rare. There is much endemic wildlife, especially birds,
+                  but the reserve is also home to over 50% of Sri Lanka's endemic species of mammals and butterflies, as well as many kinds of insects,
+                  reptiles and rare amphibians.
+
+                  Sri Lanka's tropical rain forest, the Sinharaja is a UNESCO World Natural Heritage Site. One of the few virgin forests left in the world.
+                  Streams, springs, rivers, waterfalls, leopard, monkeys, butterflies and moths, rare trees, valuable shrubs and medicinal herbs are all found within its green canopy.
+                  A trek along prescribed paths would provide nature lovers with a never to be forgotten experience of sights and sounds.
+
+                  The largest mammal in the Sinharaja Rain Forest is the rarely spotted leopard, also infrequently glimpsed are the rusty spotted and wild fishing cats. Sambhur,
+                  barking deer and wild boar browse on the forest floor. The more common troops of purple-faced langur monkeys will chatter and move through the trees above you,
+                  but you're more likely to hear them than actually see them.
+                  There are also rats, shrews, giant squirrels, porcupines, civets, mongooses, venomous snakes, 20 species of birds and 45 species of reptiles!.
+
+                </div>
+              </div>
+
+            </div>
+            <!-- Accordion card -->
+
+            <!-- Accordion card -->
+            <div class="card">
+
+              <!-- Card header -->
+              <div class="card-header" id="headingTwo2" role="tab">
+                <a aria-controls="collapseTwo2" aria-expanded="false" class="collapsed" data-parent="#accordionEx"
+                   data-toggle="collapse" href="#collapseTwo2">
+                  <h5 class="mb-0">
+                    Location <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+
+              <!-- Card body -->
+              <div aria-labelledby="headingTwo2" class="collapse" data-parent="#accordionEx" id="collapseTwo2"
+                   role="tabpanel">
+                <div class="card-body">
+                  <app-google-map [lat]="6.3897" [lng]="80.5014" [zoom]="13"></app-google-map>
+                </div>
+              </div>
+
+            </div>
+            <!-- Accordion card -->
+
+            <!-- Accordion card -->
+            <div class="card">
+
+              <!-- Card header -->
+              <div class="card-header" id="headingThree3" role="tab">
+                <a aria-controls="collapseThree3" aria-expanded="false" class="collapsed" data-parent="#accordionEx"
+                   data-toggle="collapse" href="#collapseThree3">
+                  <h5 class="mb-0">
+                    Collapsible Group Item #3 <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+
+              <!-- Card body -->
+              <div aria-labelledby="headingThree3" class="collapse" data-parent="#accordionEx" id="collapseThree3"
+                   role="tabpanel">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                  squid. 3
+                  wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                </div>
+              </div>
+
+            </div>
+            <!-- Accordion card -->
+
+
+          </div>
+
+        </div>
+      </div>
+      <button (click)="onCloseModal({})" aria-label="Close" class="close pull-right" data-dismiss="modal" type="submit">
+        <span aria-hidden="true">Cancel</span></button>
+
+    </div>
+  </div>
+</div>
+
+

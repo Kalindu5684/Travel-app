@@ -15,6 +15,11 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TimepickerModule } from 'ngx-bootstrap/timepicker';
 import {GoogleMapComponent} from './modules/google-map/google-map.component';
+import {DetailsSinharajaComponent} from './view-module/wild/details-sinharaja/details-sinharaja.component';
+import {WildUdawalawaComponent} from './view-module/wild/wild-udawalawa/wild-udawalawa.component';
+import {DetailsWilpattuwaComponent} from './view-module/wild/details-wilpattuwa/details-wilpattuwa.component';
+import {DetailsHoragollaComponent} from './view-module/wild/details-horagolla/details-horagolla.component';
+import {DetailsMinneriyaComponent} from './view-module/wild/details-minneriya/details-minneriya.component';
 
 
 @NgModule({
@@ -25,8 +30,12 @@ import {GoogleMapComponent} from './modules/google-map/google-map.component';
     AppFooterComponent,
     FullLayoutComponent,
     DetailsComponent,
-    GoogleMapComponent
-
+    GoogleMapComponent,
+    DetailsSinharajaComponent,
+    WildUdawalawaComponent,
+    DetailsWilpattuwaComponent,
+    DetailsHoragollaComponent,
+    DetailsMinneriyaComponent
 
   ],
     imports: [
@@ -43,8 +52,9 @@ import {GoogleMapComponent} from './modules/google-map/google-map.component';
 
     ],
   providers: [BsModalService],
-  entryComponents: [DetailsComponent],
+  entryComponents: [DetailsComponent, DetailsSinharajaComponent, WildUdawalawaComponent, DetailsWilpattuwaComponent, DetailsHoragollaComponent, DetailsMinneriyaComponent],
   exports: [
+    GoogleMapComponent
 
   ],
   bootstrap: [AppComponent]
